@@ -1,0 +1,24 @@
+[project]
+name = "scalping-utilities"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "lxml>=4.9.0",
+    "matplotlib>=3.10.5",
+    "plotly>=6.3.0",
+    "chart-studio>=1.1.0",
+    "requests>=2.32.4",
+    "python-dotenv>=1.0.1",
+    "rich>=13.7.1",
+    "ruff>=0.12.9",
+]
+
+[project.scripts]
+run_plotly = "scalping_utilities.cli:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
