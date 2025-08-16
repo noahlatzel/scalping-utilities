@@ -14,3 +14,5 @@ wheels/
 
 # Generated artifacts
 artifacts/
+
+.idea/

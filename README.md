@@ -1,3 +1,7 @@
+# DEPRECATED
+Unfortunately, the scraping discord server is not working anymore and anti-botting measures have increased. 
+The following code is old and will probably not work anymore.
+
 Scalping Utilities
 ===================
 
